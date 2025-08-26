@@ -1,21 +1,26 @@
 # Rema Evakuering
 
-![Screenshot 2025-04-19 085922](https://github.com/user-attachments/assets/5fa73ade-543c-43f4-a248-e689f2732043)
+<img width="2549" height="1297" alt="Screenshot 2025-08-26 174012" src="https://github.com/user-attachments/assets/a804425e-7c51-4955-96df-0ae0cfef1500" />
 
 ## Description
 
 Rema Evakuering is a real-time evacuation management panel developed for Rema 1000 distributional RDØ. It provides a live overview of evacuation status across warehouse zones and is used both on the central office monitor and by assigned staff via a Progressive Web App (PWA). The panel ensures fast, coordinated fire safety response by allowing users to update zone status instantly.
 
-[Link to Cart Snippet website](https://cart-snippet.netlify.app/)
+[Link to Rema Evakuering website](https://rema-evakuering.web.app/)
 
+Use the following credentials to log in and explore the app:
+
+**Email**: eksempel@gmail.com  
+**Password**: pass123
+  
 ## Features
 
 ### Evacuation Panel
 
 - Displays all warehouse zones with green (evacuated) or red (not evacuated) indicators.
 - Updates in real time as personnel mark zones as cleared.
-- Reset the entire panel.
-- Add new zones to the list
+- It can reset the entire panel/zones.
+- It can add new zones to the list
 
 ### Zone Management
 
