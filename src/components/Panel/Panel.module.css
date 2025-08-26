@@ -1,0 +1,61 @@
+.main {
+  flex: 1;
+  background: radial-gradient(circle, #1463c1, #00509e);
+  padding: 100px 10px 100px 10px;
+}
+
+.panel {
+  position: relative;
+  max-width: 600px;
+  background-color: #ffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.panel h1 {
+  text-align: center;
+  color: #000000c5;
+  margin: 0px 0px 70px 0px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 660px) {
+  .main {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .logo {
+    max-width: 320px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .panel {
+    padding: 30px 20px 20px 20px;
+  }
+
+  .logo {
+    max-width: 280px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .logo {
+    max-width: 240px;
+  }
+}

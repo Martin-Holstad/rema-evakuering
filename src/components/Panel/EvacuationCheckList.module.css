@@ -1,0 +1,55 @@
+.ul {
+  position: relative;
+  padding: 5px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background-color: #cfcfcf;
+  min-height: 400px;
+}
+
+.emptyListMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #757575;
+}
+
+.ul li {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  height: 35px;
+  list-style: none;
+}
+
+.ul li p {
+  white-space: nowrap;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px rgb(172, 172, 172) solid;
+  padding: 0px 0px 0px 10px;
+  width: 100%;
+  background-color: #ffff;
+  font-weight: bold;
+  color: rgb(43, 43, 43);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.actionButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 140px;
+}
+
+.selected {
+  background-color: #777777;
+  color: #ffff;
+}

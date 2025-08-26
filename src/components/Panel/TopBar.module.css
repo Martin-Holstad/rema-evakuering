@@ -1,0 +1,49 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  height: 50px;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  background-color: #777777;
+  color: #fff;
+  width: 100%;
+  padding: 0px 0px 0px 10px;
+  border: 1px rgb(172, 172, 172) solid;
+}
+
+.evacuateInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  width: 140px;
+}
+
+.notEvacuated {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(219, 1, 1);
+  color: #fff;
+  font-size: 12px;
+  border: 1px rgb(172, 172, 172) solid;
+  width: 53px;
+}
+
+.evacuated {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: #fff;
+  font-size: 12px;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: rgb(172, 172, 172);
+  width: 53px;
+}

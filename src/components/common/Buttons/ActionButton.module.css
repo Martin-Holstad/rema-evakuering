@@ -1,0 +1,9 @@
+.ActionButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  outline: rgba(255, 255, 255, 0);
+  border: none;
+}

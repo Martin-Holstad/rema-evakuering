@@ -1,0 +1,7 @@
+.actionButton {
+  background: radial-gradient(circle, #007bff, #0056b3);
+}
+
+.actionButton svg {
+  padding: 0px 0px 10px 0px;
+}

@@ -1,0 +1,69 @@
+.menuButtuon {
+  position: absolute;
+  top: 145px;
+  right: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
+  background: rgb(173, 173, 173);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menuButtuon:active {
+  background: rgb(148, 148, 148);
+}
+
+.menu {
+  visibility: hidden;
+  position: fixed;
+  right: -100px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  background: #0000009c;
+  width: 70px;
+  height: 100vh;
+  transition: right 0.3s ease-in-out, visibility 0.3s linear;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px 0px 0px 0px;
+  z-index: 2;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.actionButtons hr {
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+}
+
+.menu.active {
+  visibility: visible;
+  right: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .menuButtuon {
+    top: 140px;
+    right: 28px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .menuButtuon {
+    position: absolute;
+    top: 135px;
+  }
+}

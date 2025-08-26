@@ -1,0 +1,27 @@
+.button {
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
+  border-color: rgb(172, 172, 172);
+  width: 53px;
+  cursor: pointer;
+}
+
+.button .dot {
+  height: 13px;
+  width: 13px;
+  background-color: green;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 1px green;
+}
+
+.inActive {
+  height: 13px;
+  width: 13px;
+  background-color: lightgray;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 1px lightgray;
+}
