@@ -67,7 +67,7 @@ export default function Login() {
 
         <label htmlFor="password">Passord</label>
         {passwordError && <p className={styles.error}>Fyll in passord</p>}
-        <input type="password" name="password" id="password" placeholder="Passord" />
+        <input type="password" name="password" id="password" placeholder="Passord" autoComplete="off" />
 
         <button>{loading ? <ButtonLoader size={16} /> : "Logg inn"}</button>
       </form>
